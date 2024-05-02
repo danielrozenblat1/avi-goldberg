@@ -1,0 +1,6 @@
+@import url("./fonts/font.css");
+
+body{
+  background: linear-gradient(135deg, rgb(255, 235, 213) 0%, rgba(2,0,107,0.55) 10%, rgb(255, 235, 213) 20%, rgba(2,0,107,0.55) 30%, rgb(255, 235, 213) 40%, rgba(2,0,107,0.55) 50%, rgb(250, 236, 221) 60%, rgba(2,0,107,0.55) 70%, rgb(255, 235, 213) 80%, rgba(2,0,107,0.55) 90%, rgb(254, 243, 231)  100%);
+  background-repeat: no-repeat;
+}

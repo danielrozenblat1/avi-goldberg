@@ -1,0 +1,582 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+ 
+  }
+  
+  .square {
+    border: 0; /* Remove border from all squares */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .topLeft {
+    grid-row: 1 / span 1;
+    flex-direction: column;
+    grid-column: 1 / span 1;
+    border-right: 2px solid white; /* Add border only on the right */
+    border-bottom: 2px solid white; /* Add border only on the bottom */
+  }
+  
+  .topRight {
+    flex-direction: column;
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+    border-left: 2px solid white; /* Add border only on the left */
+    border-bottom: 2px solid white; /* Add border only on the bottom */
+  }
+  
+  .bottomLeft {
+    flex-direction: column;
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    border-right: 2px solid white; /* Add border only on the right */
+    border-top: 2px solid white; /* Add border only on the top */
+  }
+  
+  .bottomRight {
+    flex-direction: column;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    border-left: 2px solid white; /* Add border only on the left */
+    border-top: 2px solid white; /* Add border only on the top */
+  }
+  .icon{
+    height:200px;
+  }
+  .title{
+    font-family: "Rubik";
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 1px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+   .description{
+    font-family: "Rubik";
+    font-size: 1.4rem;
+    text-align: center;
+    width:70%;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin:0 auto;
+  }
+  
+  @media only screen and (max-width: 350px) {
+
+
+    .container {
+  display: flex;
+  flex-direction: column;
+      }
+      
+      .square {
+        border: 0; /* Remove border from all squares */
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .topLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 2px dashed white; 
+      }
+      
+      .topRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      
+      .bottomLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      
+      .bottomRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      .icon{
+        height:150px;
+      }
+      .title{
+        font-family: "Rubik";
+        font-size: 1.8rem;
+        text-align: center;
+        letter-spacing: 1px; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+       .description{
+        font-family: "Rubik";
+        font-size: 1rem;
+        text-align: center;
+        width:95%;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin:0 auto;
+      }
+  }
+  @media only screen  and (min-width: 350px) and (max-width: 450px) {
+
+
+    .container {
+  display: flex;
+  flex-direction: column;
+      }
+      
+      .square {
+        border: 0; /* Remove border from all squares */
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .topLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 2px dashed white; 
+      }
+      
+      .topRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      
+      .bottomLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      
+      .bottomRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      .icon{
+        height:160px;
+      }
+      .title{
+        font-family: "Rubik";
+        font-size: 2.1rem;
+        text-align: center;
+        letter-spacing: 1px; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+       .description{
+        font-family: "Rubik";
+        font-size: 1.2rem;
+        text-align: center;
+        width:95%;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin:0 auto;
+      }
+
+  }
+
+  @media only screen  and (min-width: 450px) and (max-width: 550px) {
+
+
+    .container {
+  display: flex;
+  flex-direction: column;
+      }
+      
+      .square {
+        border: 0; /* Remove border from all squares */
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .topLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 2px dashed white; 
+      }
+      
+      .topRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      
+      .bottomLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      
+      .bottomRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      .icon{
+        height:180px;
+      }
+      .title{
+        font-family: "Rubik";
+        font-size: 2.5rem;
+        text-align: center;
+        letter-spacing: 1px; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+       .description{
+        font-family: "Rubik";
+        font-size: 1.3rem;
+        text-align: center;
+        width:95%;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin:0 auto;
+      }
+
+  }
+  @media only screen  and (min-width: 550px) and (max-width: 750px) {
+
+
+    .container {
+  display: flex;
+  flex-direction: column;
+      }
+      
+      .square {
+        border: 0; /* Remove border from all squares */
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .topLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 2px dashed white; 
+      }
+      
+      .topRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      
+      .bottomLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      
+      .bottomRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      .icon{
+        height:200px;
+      }
+      .title{
+        font-family: "Rubik";
+        font-size: 2.6rem;
+        text-align: center;
+        letter-spacing: 1px; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+       .description{
+        font-family: "Rubik";
+        font-size: 1.4rem;
+        text-align: center;
+        width:95%;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin:0 auto;
+      }
+
+  }
+  @media only screen  and (min-width: 750px) and (max-width: 850px) {
+
+
+    .container {
+  display: flex;
+  flex-direction: column;
+      }
+      
+      .square {
+        border: 0; /* Remove border from all squares */
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .topLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 2px dashed white; 
+      }
+      
+      .topRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      
+      .bottomLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      
+      .bottomRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom: 2px dashed white;
+      }
+      .icon{
+        height:200px;
+      }
+      .title{
+        font-family: "Rubik";
+        font-size: 2.7rem;
+        text-align: center;
+        letter-spacing: 1px; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+       .description{
+        font-family: "Rubik";
+        font-size: 1.5rem;
+        text-align: center;
+        width:95%;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin:0 auto;
+      }
+
+  }
+  @media only screen  and (min-width: 850px) and (max-width: 950px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+     
+      }
+      
+      .square {
+        border: 0; /* Remove border from all squares */
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .topLeft {
+        grid-row: 1 / span 1;
+        flex-direction: column;
+        grid-column: 1 / span 1;
+        border-right: 2px solid white; /* Add border only on the right */
+        border-bottom: 2px solid white; /* Add border only on the bottom */
+      }
+      
+      .topRight {
+        flex-direction: column;
+        grid-row: 1 / span 1;
+        grid-column: 2 / span 1;
+        border-left: 2px solid white; /* Add border only on the left */
+        border-bottom: 2px solid white; /* Add border only on the bottom */
+      }
+      
+      .bottomLeft {
+        flex-direction: column;
+        grid-row: 2 / span 1;
+        grid-column: 1 / span 1;
+        border-right: 2px solid white; /* Add border only on the right */
+        border-top: 2px solid white; /* Add border only on the top */
+      }
+      
+      .bottomRight {
+        flex-direction: column;
+        grid-row: 2 / span 1;
+        grid-column: 2 / span 1;
+        border-left: 2px solid white; /* Add border only on the left */
+        border-top: 2px solid white; /* Add border only on the top */
+      }
+      .icon{
+        height:140px;
+      }
+      .title{
+        font-family: "Rubik";
+        font-size: 2rem;
+        text-align: center;
+        letter-spacing: 1px; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+       .description{
+        font-family: "Rubik";
+        font-size: 1.1rem;
+        text-align: center;
+        width:90%;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin:0 auto;
+      }
+      
+  }
+
+  @media only screen  and (min-width: 950px) and (max-width: 1150px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+     
+      }
+      
+      .square {
+        border: 0; /* Remove border from all squares */
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .topLeft {
+        grid-row: 1 / span 1;
+        flex-direction: column;
+        grid-column: 1 / span 1;
+        border-right: 2px solid white; /* Add border only on the right */
+        border-bottom: 2px solid white; /* Add border only on the bottom */
+      }
+      
+      .topRight {
+        flex-direction: column;
+        grid-row: 1 / span 1;
+        grid-column: 2 / span 1;
+        border-left: 2px solid white; /* Add border only on the left */
+        border-bottom: 2px solid white; /* Add border only on the bottom */
+      }
+      
+      .bottomLeft {
+        flex-direction: column;
+        grid-row: 2 / span 1;
+        grid-column: 1 / span 1;
+        border-right: 2px solid white; /* Add border only on the right */
+        border-top: 2px solid white; /* Add border only on the top */
+      }
+      
+      .bottomRight {
+        flex-direction: column;
+        grid-row: 2 / span 1;
+        grid-column: 2 / span 1;
+        border-left: 2px solid white; /* Add border only on the left */
+        border-top: 2px solid white; /* Add border only on the top */
+      }
+      .icon{
+        height:160px;
+      }
+      .title{
+        font-family: "Rubik";
+        font-size: 2.3rem;
+        text-align: center;
+        letter-spacing: 1px; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+       .description{
+        font-family: "Rubik";
+        font-size: 1.2rem;
+        text-align: center;
+        width:90%;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin:0 auto;
+      }
+      
+  }
+  @media only screen  and (min-width: 1150px) and (max-width: 1400px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+     
+      }
+      
+      .square {
+        border: 0; /* Remove border from all squares */
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .topLeft {
+        grid-row: 1 / span 1;
+        flex-direction: column;
+        grid-column: 1 / span 1;
+        border-right: 2px solid white; /* Add border only on the right */
+        border-bottom: 2px solid white; /* Add border only on the bottom */
+      }
+      
+      .topRight {
+        flex-direction: column;
+        grid-row: 1 / span 1;
+        grid-column: 2 / span 1;
+        border-left: 2px solid white; /* Add border only on the left */
+        border-bottom: 2px solid white; /* Add border only on the bottom */
+      }
+      
+      .bottomLeft {
+        flex-direction: column;
+        grid-row: 2 / span 1;
+        grid-column: 1 / span 1;
+        border-right: 2px solid white; /* Add border only on the right */
+        border-top: 2px solid white; /* Add border only on the top */
+      }
+      
+      .bottomRight {
+        flex-direction: column;
+        grid-row: 2 / span 1;
+        grid-column: 2 / span 1;
+        border-left: 2px solid white; /* Add border only on the left */
+        border-top: 2px solid white; /* Add border only on the top */
+      }
+      .icon{
+        height:180px;
+      }
+      .title{
+        font-family: "Rubik";
+        font-size: 2.5rem;
+        text-align: center;
+        letter-spacing: 1px; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+       .description{
+        font-family: "Rubik";
+        font-size: 1.2rem;
+        text-align: center;
+        width:95%;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin:0 auto;
+      }
+      
+  }
